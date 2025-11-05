@@ -5,7 +5,7 @@ Os principais desafios enfrentados foram a implementação da lógica do PHP par
 INSTRUÇÕES DE USO:
 Para rodar o projeto é necessário executar o XAMPP para acessar o seguinte link: http://localhost/projeto1/, assim o usuário irá para o site institucional.
 Caso o usuário deseje acessar a parte administrativa, deve-se acessar o seguinte link: http://localhost/projeto1/admin/admin.php
-Quando rodar o projeto, para criar o banco de dados deve-se executar seguinte o código abaixo na parte administrativa do banco de dados:
+Quando rodar o projeto, para criar o banco de dados deve-se executar seguinte o código na parte administrativa do banco de dados:
 CREATE DATABASE IF NOT EXISTS projeto1;
 
 USE projeto1;
