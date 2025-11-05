@@ -8,7 +8,7 @@ CREATE DATABASE IF NOT EXISTS projeto1;
 */
 USE projeto1;
 
-/* 3. Cria a tabela 'contatos' DENTRO de 'projeto1'
+/* 3. Cria a tabela 'contatos', que será para o envio de dados em "Fale Conosco", DENTRO de 'projeto1'
 */
 CREATE TABLE contatos (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -17,11 +17,12 @@ CREATE TABLE contatos (
   data_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-/* 4. Cria a tabela 'clientes' DENTRO de 'projeto1'
+/* 4. Cria a tabela 'clientes', que será para o envio de dados no cadastro de clientes administrativo,  DENTRO de 'projeto1'
 */
 CREATE TABLE clientes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     cliente VARCHAR(150) NOT NULL,
     cidade VARCHAR(100) NOT NULL,
     estado CHAR(2) NOT NULL
+
 );
